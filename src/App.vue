@@ -1,13 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld :msg="msg"/>
+    <HelloWorld
+      :msg="msg"
+    />
   </div>
 </template>
 
 <script lang="ts" setup>
+import HelloWorld from './components/HelloWorld.vue';
 import { ref } from 'vue';
-const msg = ref("Good")
+const msg = ref("124")
 </script>
 
 <style>
